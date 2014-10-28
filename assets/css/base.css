@@ -83,7 +83,7 @@ Valid:		You know it!
 	ul#nav li a.catalog { background-position: 0 -428px; }
 	ul#nav li a.catalog:hover, ul#nav li a.catalog.active { background-position: 0 -402px; }
 	ul#nav li a.buescher-foundation { background-position: 0 -498px; height: 42px; }
-	ul#nav li a.buescher-foundation:hover, ul#nav li a.catalog.active { background-position: 0 -456px; }
+	ul#nav li a.buescher-foundation:hover, ul#nav li a.buescher-foundation.active { background-position: 0 -456px; }
 
 
 	/* Main Content Wrapper */
