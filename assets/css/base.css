@@ -22,6 +22,7 @@ Valid:		You know it!
 	body.jumpin { background: transparent url(../images/img-bg-sidebar-jumpin.png) repeat-y top left; margin: 0; padding: 0; }
 	body.clients { background: transparent url(../images/img-bg-sidebar-clients.png) repeat-y top left; margin: 0; padding: 0; }
 	body.contact { background: transparent url(../images/img-bg-sidebar-contact.png) repeat-y top left; margin: 0; padding: 0; }
+	body.foundation { background: transparent url(../images/img-bg-sidebar-foundation.png) repeat-y top left; margin: 0; padding: 0; }
 
 
 	/* Page Container */
@@ -59,7 +60,7 @@ Valid:		You know it!
 	div.radio li a { text-indent: 0; color: #C20C22; }
 	div.radio li a:hover { color: #CCC; }
 
-	div.nav { position: absolute; top: 150px; left: 101px; width: 166px; z-index: 67; }
+	div.nav { position: absolute; top: 130px; left: 101px; width: 166px; z-index: 67; }
 	ul#nav { right: 0px; padding: 0; position: relative; top: 0px; }
 	ul#nav li { list-style: none; margin: 0; padding-right: 10px; }
 	ul#nav li a { background: transparent url(../images/img-bg-navmain.png) no-repeat; display: block; width: 95px; height: 24px; padding-left: 52px; text-indent: -9999px; }
@@ -81,6 +82,8 @@ Valid:		You know it!
 	ul#nav li a.contact:hover, ul#nav li a.contact.active { background-position: 0 -249px; }
 	ul#nav li a.catalog { background-position: 0 -428px; }
 	ul#nav li a.catalog:hover, ul#nav li a.catalog.active { background-position: 0 -402px; }
+	ul#nav li a.buescher-foundation { background-position: 0 -498px; height: 42px; }
+	ul#nav li a.buescher-foundation:hover, ul#nav li a.catalog.active { background-position: 0 -456px; }
 
 
 	/* Main Content Wrapper */
@@ -117,10 +120,10 @@ img.floating-image.clients { position: absolute; top: 373px; left: 12px; }
 img.floating-image.jumpin { position: absolute; top: 390px; left: 22px; }
 
 
-div#footer {  height: 118px; padding: 0; width: 100%; float: left; margin: 230px 0 0 240px; }
+div#footer {  height: 118px; padding: 0; width: 100%; float: left; margin: 230px 0 0 160px; }
 div#footer.footer-long { margin-top: 330px; }
-div#footer img { margin: 0 auto; width: 724px; float: left; }
-div#footer p { float: left; margin: 20px auto; width: 708px; text-align: center }
+div#footer img { margin: 0 auto; width: 855px; float: left; }
+div#footer p { float: left; margin: 20px auto; width: 855px; text-align: center }
 
 /* VIDEO */
 a.video-home { display: block; position: absolute; top: 170px; left: 300px; }
@@ -163,6 +166,7 @@ div.jumpin-smheader { background: transparent url(../images/img-bg-smheader-jump
 div.jumpin-smheader h1 { background: transparent url(../images/h2-jumpin.gif) no-repeat top left; text-indent: -9999px; margin: 0; padding: 0;}
 div.contact-smheader { background: transparent url(../images/img-bg-smheader-contact.jpg) repeat-x top left; margin: 0; padding: 7px 0 0 6px; }
 div.contact-smheader h1 { background: transparent url(../images/h2-contact.gif) no-repeat top left; text-indent: -9999px; margin: 0; padding: 0;}
+div.foundation-smheader { background: transparent url(../images/img-bg-smheader-foundation.jpg) repeat-x top left; margin: 0; padding: 7px 0 0 6px; }
 
 
 div.marketing-services, div.creative-services, div.expanded-services { width: 27%; float: left; margin: 0 60px 0 6px; }

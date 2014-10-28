@@ -25,7 +25,7 @@ PromoShop Inc - Promotional Products - Catch the Wave of E-Stores and Fulfillmen
 <a class="logo" href="index.html">Return back to PromoShop Inc. Home Page</a>
 <div class="header-catalog clients">
 <a href="http://shop.mypromoshopstore.com/" target="_blank">Surf our Online Catalog here.</a>
-</div><!-- end .header-catalog -->	
+</div><!-- end .header-catalog -->
 
 <div class="nav-social">
 <h2 class="hide">Follow us using the following Social Media Options</h2>
@@ -35,7 +35,7 @@ PromoShop Inc - Promotional Products - Catch the Wave of E-Stores and Fulfillmen
 <li><a class="youtube" href="http://www.youtube.com/user/promoshopboise" target="_blank">Follow us on YouTube</a></li>
 </ul>
 </div><!-- end .nav-social -->
-		
+
 <div class="nav">
 <h2 class="hide">Browse our site using the navigation below</h2>
 <ul id="nav">
@@ -48,7 +48,8 @@ PromoShop Inc - Promotional Products - Catch the Wave of E-Stores and Fulfillmen
 <li><a class="gogreen" href="http://www.ecopromos.com/" target="_blank">Go Green</a></li>
 <li><a class="contact" href="contact.html">Contact</a></li>
 <li><a class="catalog" href="http://shop.mypromoshopstore.com/" target="_blank">Online Catalog</a></li>
-</ul>	  
+<li><a class="buescher-foundation" href="jim-buescher-foundation.html">Buescher Foundation</a></li>
+</ul>
 </div><!-- end #nav -->
 
 <div id="content-wrapper" class="content"><!-- Message Container -->
@@ -69,12 +70,12 @@ PromoShop Inc - Promotional Products - Catch the Wave of E-Stores and Fulfillmen
 <li><img src="assets/images/img-clients-logos-3.jpg" alt="img-clients-logos-3" width="773" height="764" /></li>
 </ul>
 </div>
-</div><!-- end .content-bottom -->			
+</div><!-- end .content-bottom -->
 </div><!-- End Content -->
 
 <div id="footer">
-<img src="assets/images/img-bg-footer.jpg" width="800" height="65" alt="The following are the awards PromoShop Inc has earned | " />
-<p>Copyright ® 2012-2013 PromoShop Inc</p>
+<img src="assets/images/img-bg-footer.jpg" width="855" height="65" alt="The following are the awards PromoShop Inc has earned | " />
+<p>Copyright ï¿½ 2012-2013 PromoShop Inc</p>
 </div><!-- end #footer -->
 </div><!-- End wrapper DIV -->
 </div>
@@ -95,15 +96,15 @@ PromoShop Inc - Promotional Products - Catch the Wave of E-Stores and Fulfillmen
 function theRotator() {
 	//Set the opacity of all images to 0
 	$('div.clients-content ul li').css({opacity: 0.0});
-	
+
 	//Get the first image and display it (gets set to full opacity)
 	$('div.clients-content ul li:first').css({opacity: 1.0});
-		
+
 	//Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
-	
-	setInterval('rotate()',6000);	
+
+	setInterval('rotate()',6000);
 }
-function rotate() {	
+function rotate() {
 	//Get the first image
 	var current = ($('div.clients-content ul li.show')?  $('div.clients-content ul li.show') : $('div.clients-content ul li:first'));
 
@@ -111,13 +112,13 @@ function rotate() {
 
 	//Get next image, when it reaches the end, rotate it back to the first image
 	var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.clients-content ul li:first') :current.next()) : $('div.clients-content ul li:first'));
-	
+
 	//Un-comment the 3 lines below to get the images in random order
-	
+
 	//var sibs = current.siblings();
     //var rndNum = Math.floor(Math.random() * sibs.length );
     //var next = $( sibs[ rndNum ] );
-		
+
 	//Set the fade in effect for the next image, the show class has higher z-index
 	next.css({opacity: 0.0})
 	.addClass('show')
@@ -125,9 +126,9 @@ function rotate() {
 
 	//Hide the current image
 	current.animate({opacity: 0.0}, 1000)
-	.removeClass('show');	
+	.removeClass('show');
 };
-$(document).ready(function() {		
+$(document).ready(function() {
 	//Load the slideshow
 	theRotator();
 	$('div.clients-content').fadeIn(1000);
